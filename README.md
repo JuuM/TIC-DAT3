@@ -1,2 +1,6 @@
 # TIC-DAT3
-Init repo with a docker
+
+cd Docker
+docker-compose -d --build up
+
+Go to http://localhost:8080/ for the adminer
