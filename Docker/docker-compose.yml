@@ -10,7 +10,7 @@ services:
     volumes:
     - ../data/test_db:/docker-entrypoint-initdb.d
     environment:
-      MYSQL_ROOT_PASSWORD: example
+      MYSQL_ROOT_PASSWORD: root
 
   adminer:
     image: adminer
