@@ -2,7 +2,7 @@
 
 cd Docker
 
-docker-compose -d --build up
+docker-compose up --build
 
 Go to http://localhost:8080/ for the adminer
 Compte : root/root
